@@ -4,6 +4,9 @@ print(my_dict.get('Катя'))
 print(my_dict.get('Саша'))
 my_dict.update({'Макс': 55, 'Дима' : 00})
 print(my_dict)
+print(my_dict['Дима'])
+del my_dict['Дима']
+print(my_dict)
 my_set = {55, 55, 00, 'Макс', 'Макс', int, 'Оля'}
 print(my_set)
 my_set.add('Дима')
